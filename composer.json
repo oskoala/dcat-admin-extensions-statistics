@@ -1,6 +1,5 @@
 {
-    "name": "os-koala/statistics",
-    "alias": "statistics",
+    "name": "os-koala/dcat-admin-extensions-statistics",
     "description": "dcat-admin 访问统计",
     "type": "library",
     "keywords": [
