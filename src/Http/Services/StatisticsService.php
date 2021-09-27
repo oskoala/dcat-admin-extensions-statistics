@@ -48,8 +48,8 @@ class StatisticsService
 
     public function getCountryName()
     {
-        $city_reader = new Reader(admin_extension_path("os-koala/statistics/resources/assets/GeoLite2-Country.mmdb"));
-        $client_ip   = $_SERVER['REMOTE_ADDR'];;
+        $city_reader = new Reader(public_path("vendor/dcat-admin-extensions/os-koala/statistics/GeoLite2-Country.mmdb"));
+        $client_ip   = $_SERVER['REMOTE_ADDR'];
         if ($client_ip == "127.0.0.1") {
             $client_ip = '218.56.108.218';
         }
