@@ -1,5 +1,5 @@
 {
-    "name": "os-koala/statistics",
+    "name": "osKoala/statistics",
     "description": "dcat-admin 访问统计",
     "type": "library",
     "keywords": [
