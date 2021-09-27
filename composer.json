@@ -1,0 +1,36 @@
+{
+    "name": "os-koala/statistics",
+    "alias": "",
+    "description": "dcat-admin 访问统计",
+    "type": "library",
+    "keywords": [
+        "dcat-admin",
+        "extension"
+    ],
+    "homepage": "https://github.com/dcat-admin/statistics",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "os-koala",
+            "email": "oskoala@mengyakeji.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "~2.0",
+        "jenssegers/agent": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "OsKoala\\Statistics\\": "src/"
+        }
+    },
+    "extra": {
+        "dcat-admin": "OsKoala\\Statistics\\StatisticsServiceProvider",
+        "laravel": {
+            "providers": [
+                "OsKoala\\Statistics\\StatisticsServiceProvider"
+            ]
+        }
+    }
+}
