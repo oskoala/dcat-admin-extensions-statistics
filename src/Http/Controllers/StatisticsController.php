@@ -93,7 +93,7 @@ class StatisticsController extends Controller
                 $row->column(4, function (Column $column) use ($countries) {
                     $items = $countries;
                     $num   = 8;
-                    $title = "国家访问排名";
+                    $title = "国家和地区访问排名";
                     $column->row(Admin::view('os-koala.statistics::table', compact('items', 'num', 'title')));
                 });
 

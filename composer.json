@@ -1,5 +1,5 @@
 {
-    "name": "oskoala/dcat-admin-extensions-statistics",
+    "name": "oskoala/statistics",
     "description": "dcat-admin 访问统计",
     "type": "library",
     "keywords": [
@@ -10,7 +10,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "os-koala",
+            "name": "oskoala",
             "email": "oskoala@mengyakeji.com"
         }
     ],
