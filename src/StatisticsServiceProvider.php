@@ -24,7 +24,7 @@ class StatisticsServiceProvider extends ServiceProvider
     protected $menu = [
         [
             'title' => '访客统计',
-            'uri'   => 'auth/statistics/index',
+            'uri'   => 'auth/statistics',
             'icon'  => '', // 图标可以留空
         ],
     ];
