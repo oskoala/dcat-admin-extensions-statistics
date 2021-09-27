@@ -14,7 +14,6 @@
             "email": "oskoala@mengyakeji.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=7.1.0",
         "dcat/laravel-admin": "~2.0",
