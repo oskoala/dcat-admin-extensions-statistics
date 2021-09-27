@@ -1,5 +1,5 @@
 {
-    "name": "oskoala/statistics",
+    "name": "oskoala/dcat-admin-extensions-statistics",
     "description": "dcat-admin 访问统计",
     "type": "library",
     "keywords": [
