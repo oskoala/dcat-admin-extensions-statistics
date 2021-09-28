@@ -34,7 +34,7 @@ class StatisticsController extends Controller
         $screens  = Session::query()->whereBetween("created_at", [$start, $end])->groupBy('screen')->select([DB::raw("screen as name"), DB::raw("count(*) as value")])->orderBy("value", "desc")->get();
         return $content
             ->title('访问数据统计')
-            ->description('萌芽科技技术支持')
+            ->description("")
             ->body(function (Row $row) use ($days, $countries, $urls, $referrers, $browsers, $os, $devices, $screens) {
 
                 $row->column(12, function (Column $column) {
